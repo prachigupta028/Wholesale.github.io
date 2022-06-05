@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7f075009fd.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        span{
+            float: right;
+            font-size: 30px;
+            padding: 50px;
+            }
+            #div1{
+                height:130px;
+            }
+            #img{
+                color: brown;
+            }
+            .link{
+                background-color: white;
+                width:300px;
+                height: 50px;
+                color: black;
+                font-size: medium;
+                
+            }
+            .ulink:hover{
+                background-color: purple;
+            }
+            .ulink{
+                background-color:brown;
+                width:100px;
+                height: 50px;
+                color: white;
+                font-size: medium;
+                
+            }
+            .brown{
+                color: brown;
+                font-size: 20px;
+            }
+            #grey{
+                background-color: #4e4b4a;
+                color: white;
+                text-align: center;
+                height: 100px;
+               /* position:sticky;
+                top: 0px;*/
+            }
+            .div2{
+                float: right;
+                padding:50px 100px;
+            }
+            #height{
+                height: 250px;
+            }
+            #ima{
+                width: 300px;
+                height: 200px;
+                padding:50px 80px;
+            }
+            .yn{
+                width: 300px;
+            }
+            #sub{
+                width: 300px;
+                background-color: brown; 
+                color: white;
+                font-size: medium;
+                height: 30px;
+            }
+            #hoti{
+                float: right;
+                width: 400px;
+                height: 400px;
+
+            }
+            #parent{
+                display: inline-block;
+                height: 300px;
+                padding: 150px;
+            }
+            #uchild{
+                width:600px;
+                height:400px;
+                float: left;
+            }
+            #child{
+                float: right;
+                width:500px;
+            }
+            #dif{
+                background-color: whitesmoke;
+                height: 200px;
+                width: 250px;
+                font-size: large;
+                color: grey;
+                padding: 40px;
+                margin-top: -250px;
+                float: center;
+                margin-left: 480px;
+               /* column-rule-style: solid;*/
+            }
+            #bg{
+                background-image: url('images/kitchen.jpg');
+                width:1200px;
+                height:300px;
+                background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            transition: 3s;
+
+            animation-name: animator;
+            animation-iteration-count: infinite;
+           animation-direction :alternate converse;
+           animation-duration: 10s;
+           color: white;
+           text-align: center;
+           font-size: larger;
+           padding: 8%;
+        }
+            @keyframes animator{
+                0%{background-image:url('images/kitchen.jpg') ;
+            }
+                10%{background-image:url('images/kiti.jpg') ;
+            }
+            }
+            #free{
+                margin-left: 150px;
+                margin-top: -40px;
+            }
+            .ship{
+                margin-top: -40px; 
+            }
+            #list{
+                list-style-type: none;
+               overflow: auto;
+               width: 100%;
+            }
+            li{
+                float: left;
+                padding-left:60px ;
+                padding-right: 60px;
+                height:15px;
+               transition-property:height;
+                transition-duration: 200ms;
+                transition-timing-function: ease-in-out;
+            }
+            li:hover{
+                background-color: brown;
+                font-size: larger;
+                height:30px;
+            }
+            a:link{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: white;
+                height:30px;
+            }
+            #first{
+                height: 30px;
+            }
+            .link:hover{
+                background-color: brown;
+                color: white;
+            }
+            body{
+                overflow:auto;
+            }
+            .parent{
+                height: 100%;
+                width: 100%;
+                border: 1px solid darkgrey;
+                box-sizing: border-box;
+            }
+/*@media screen and (max-width:480px) {
+    #child{
+        img:hidden;
+}
+    
+}*/
+            
+            
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <hr color="brown" size="4px">
+    <div id="div1">
+        <img src=".\images\logo.png">
+     <span> <i class="fas fa-phone-square" id="img"></i> (855)462-3354</span>
+    </div>
+    <hr>
+    <div id="first">
+        <ul id="list"><b>
+            <li><a href="#">HOME</a></li>
+            <Li><a href="#">CABINETS</a></Li>
+            <Li><a href="#">POLICIES</a></Li>
+            <Li><a href="#">REQUEST</a></Li>
+            <Li><a href="#">ABOUT US</a></Li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT US</a></li></b>
+        </ul>
+    </div>
+    <DIV id="bg">
+        <h1><B>SUPER SAVINGS</B></h1>
+        <h2>FREE SHIPING ON ORDERS OVER $2500</h2>
+        </DIV>
+        <div>
+        <img src=".\images\free-shipping.png" id="free">
+        <img src=".\images\free-samples.png" class="ship">
+        <img src=".\images\free-designs.png"class="ship">
+        <div id="parent">
+        <div id="uchild">
+        <h1>HIGH QUALITY CABINETS</h1>
+        <p style="color:#4e4b4a ;">One of the most important aspects of your projects is the design.The design is the key factor in what your kitchen 
+            or bath will ultimately look like and whether or not your cabinets will even fit in your
+            space and if all your doors and drawers will open properly.At wholesales
+            cabinets warehouse Inc.we hire only certified and degreed kitchen and bath designers,separating us from
+            the others and making our designs more unique nand much more attractive!
+        </p>
+        <br><br>
+        <h2>Wholesale Cabinets Warehouse</h2>
+        <a href="#"><input type="text" value="READ MORE" class="ulink"></a>
+    </div><div id="child">
+        <img src=".\images\hoti.jpeg" id="hoti">
+        </div>
+        </div>
+        <div id="dif"><p>"Love of my new cabinets.They did a great from design to installstion.
+            Everyone I worked with was great. Cabinets were high quality and 
+        I would definitely use them again for any future projects."
+        </p>
+        <b class="brown">Nila P</b>
+    
+    </div>
+    <hr color="brown" size="4px"><div id="height">
+    <img src=".\images\logo.png" id="ima"><div class="div2">
+    <p class="brown"><b>Join Our Newsletter</b></p>
+    <input type="text" placeholder="Your Name"class="yn"><br><br>
+    <input type="email" placeholder="Your Email"class="yn"><br><br>
+    <input type="button" value="SUBSCRIBE" id="sub">
+    </div></div>
+    <div class="fixed">
+<div id="grey">
+    <H2>LET US YOUR KITCHEN REMODEL CONCIERGE</H2>
+    <A href="#"><input type="button" value="REQUEST A DESIGN CONSULATION" class="link"></A>
+    </div>
+</div>
+</div>
+</body>
+</html>
